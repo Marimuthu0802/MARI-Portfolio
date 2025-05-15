@@ -1,4 +1,6 @@
+import React from 'react';
 import { motion } from 'framer-motion';
+import resume from '../assets/Mari_Resume.pdf'; // ✅ Make sure the path is correct
 
 const About = () => {
   return (
@@ -15,7 +17,7 @@ const About = () => {
             About Me
           </h2>
           <p className="mt-4 max-w-2xl text-xl text-gray-400 mx-auto">
-            Get to know more about who I am and what I do
+            Get to know more about my background and skills
           </p>
         </motion.div>
 
@@ -37,7 +39,7 @@ const About = () => {
               />
             </div>
           </motion.div>
-
+        
           {/* Text Content */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -47,15 +49,16 @@ const About = () => {
             className="md:w-2/3 text-center md:text-left"
           >
             <h3 className="text-2xl font-bold text-white mb-4">
-              I&apos;m Prem Kumar J, a Full Stack Developer
+              Full Stack Developer | MCA Student
             </h3>
-            <p className="text-gray-400 mb-6 leading-relaxed">
-              I am a fresher in full-stack web development with hands-on experience in React, Node.js, MongoDB, and other modern technologies. I recently completed a 6-month internship at WhyTap as a Full Stack Web Developer, where I gained practical exposure to building real-world web applications. Prior to this, I worked for 2 years and 10 months as an Office Assistant in a manufacturing company, where I developed strong skills in data handling, organization, and communication. I&apos;m now excited to combine my technical skills and professional experience to contribute meaningfully to web development projects.
-            </p>
+           <p className="text-gray-400 mb-6 leading-relaxed">
+            Enthusiastic MCA student graduating in 2025 with strong skills in software development and a passion for building impactful, user-friendly web applications. Proficient in the <span className="text-indigo-400 font-medium">MERN stack</span> with hands-on experience in <span className="text-indigo-400 font-medium">Reactjs</span> and <span className="text-indigo-400 font-medium">problem-solving</span>. Developed full-stack projects including a Crowdfunding Management System and a Fire Safety Awareness Platform, implementing responsive design, authentication, and real-time features. Eager to keep learning, collaborate effectively, and create meaningful tech solutions.
+          </p>
+
 
             {/* Download Resume Button */}
             <motion.a
-              href="/Prem_Kumar_J_Resume.pdf"
+              href={resume}
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -71,3 +74,4 @@ const About = () => {
 };
 
 export default About;
+

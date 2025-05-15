@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline';
+import FireSafety from '../assets/Fire-safety.jpeg';
+
 
 const Projects = () => {
   const projects = [
@@ -8,29 +10,30 @@ const Projects = () => {
       title: 'E-commerce Platform',
       description: 'A full-featured online store with product listings, cart functionality, and secure checkout.',
       tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       codeLink: '#',
       liveLink: '#',
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A productivity application for organizing tasks with drag-and-drop functionality and team collaboration.',
-      tags: ['React', 'Firebase', 'Tailwind CSS'],
-      image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-      codeLink: '#',
-      liveLink: '#',
+      title: 'Fire Safety Awareness System',
+      description: 'A responsive web application designed to educate users about fire hazards, emergency procedures, and safety protocols. Includes interactive tips, resources, and emergency contact info for better preparedness.',
+      tags: ['React', 'Tailwind CSS'],
+      image: FireSafety, 
+      codeLink: 'https://github.com/Marimuthu0802/Fire-Safety.git',
+      liveLink: 'https://firesafety-blue.vercel.app/',
     },
     {
       id: 3,
       title: 'Weather Dashboard',
       description: 'Real-time weather information with 5-day forecast and location-based services.',
       tags: ['JavaScript', 'API Integration', 'CSS'],
-      image: 'https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       codeLink: '#',
       liveLink: '#',
     },
   ];
+  
 
   return (
     <section id="projects" className="py-20 bg-gray-800">

@@ -67,7 +67,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-white">Location</h3>
-                  <p className="text-gray-400">Kilpauk, Chennai</p>
+                  <p className="text-gray-400">Peraiyur,Madurai</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-white">Email</h3>
-                  <p className="text-gray-400">premjd2000@gmail.com</p>
+                  <p className="text-gray-400">ptpmari0802@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-white">Phone</h3>
-                  <p className="text-gray-400">+91 86108 94125</p>
+                  <p className="text-gray-400">+91 9361457005</p>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Contact = () => {
               <h3 className="text-lg font-medium text-white mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/PREM-KUMAR-J"
+                  href="https://github.com/Marimuthu0802"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ y: -3 }}
@@ -103,7 +103,7 @@ const Contact = () => {
                   <FaGithub className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/premkumarj00/"
+                  href="https://www.linkedin.com/in/marimuthu-s-0b6269300/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ y: -3 }}
@@ -112,7 +112,7 @@ const Contact = () => {
                   <FaLinkedin className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://www.behance.net/premkumarj00"
+                  href="https://www.behance.net/marimuthu0802"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ y: -3 }}

@@ -8,12 +8,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-400">
-              &copy; {new Date().getFullYear()} Prem Kumar J. All rights reserved.
+              &copy; {new Date().getFullYear()} Marimuthu S. All rights reserved.
             </p>
           </div>
           <div className="flex space-x-6">
             <motion.a
-              href="https://github.com/PREM-KUMAR-J"
+              href="https://github.com/Marimuthu0802"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -3 }}
@@ -22,7 +22,7 @@ const Footer = () => {
               <FaGithub className="h-5 w-5" />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/premkumarj00/"
+              href="https://www.linkedin.com/in/marimuthu-s-0b6269300/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -3 }}
@@ -31,7 +31,7 @@ const Footer = () => {
               <FaLinkedin className="h-5 w-5" />
             </motion.a>
             <motion.a
-              href="https://www.behance.net/premkumarj00"
+              href="https://www.behance.net/marimuthu0802"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -3 }}
