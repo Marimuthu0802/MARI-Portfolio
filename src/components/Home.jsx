@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-
+import mariPhoto from '../assets/mariPhoto.png';
 
 const Home = () => {
   return (
@@ -54,7 +54,7 @@ const Home = () => {
             <div className="relative">
               <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-indigo-500 to-purple-500 opacity-20 blur-xl"></div>
               <img
-                src='/mariphoto.png'
+                src={mariPhoto}
                 alt="Developer"
                 className="relative rounded-3xl w-80 h-80 object-cover shadow-2xl border-2 border-gray-700"
               />
