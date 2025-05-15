@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import mariPhoto from '../assets/mariPhoto.png'; // <-- Make sure file name matches exactly
+import mariPhoto from '../assets/mariPhoto.png';
 
 const Home = () => {
   return (
