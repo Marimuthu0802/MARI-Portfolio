@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-// import mariPhoto from '../assets/mariPhoto.png';
+
 
 const Home = () => {
   return (
